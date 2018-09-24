@@ -72,13 +72,7 @@ export default class PurgecssPlugin {
                             file => file.resource,
                             webpackVersion
                         )
-                    )
-                    .filter(v => {
-                        for (let ext of styleExtensions) {
-                            if (v.endsWith(ext)) return false
-                        }
-                        return true
-                    })
+                    );
 
                 // Compile through Purgecss and attach to output.
                 // This loses sourcemaps should there be any!
