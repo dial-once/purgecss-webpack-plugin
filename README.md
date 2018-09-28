@@ -1,3 +1,7 @@
+### This repository is a fork of the original [purgecss-webpack-plugin](https://github.com/FullHuman/purgecss-webpack-plugin) by [Ffloriel](https://github.com/Ffloriel)
+
+The only change we made was that we removed ignore of the stylesheets (css, sass files and similar) by this plugin. 
+
 # purgecss-webpack-plugin
 
 [![Build Status](https://travis-ci.org/FullHuman/purgecss-webpack-plugin.svg?branch=master)](https://travis-ci.org/FullHuman/purgecss-webpack-plugin)

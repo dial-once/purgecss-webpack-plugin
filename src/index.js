@@ -6,7 +6,6 @@ import * as search from './search'
 
 let webpackVersion = 4
 
-const styleExtensions = ['.css', '.scss', '.styl', '.sass', '.less']
 const pluginName = 'PurgeCSS'
 
 export default class PurgecssPlugin {

@@ -1,6 +1,6 @@
 {
-  "name": "purgecss-webpack-plugin",
-  "version": "1.3.0",
+  "name": "@dialonce/purgecss-webpack-plugin",
+  "version": "1.3.2",
   "description": "Purgecss plugin for webpack - Remove unused css",
   "main": "./lib/purgecss-webpack-plugin.js",
   "module": "./lib/purgecss-webpack-plugin.es.js",
@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FullHuman/purgecss-webpack-plugin.git"
+    "url": "git+https://github.com/dial-once/purgecss-webpack-plugin.git"
   },
   "keywords": [
     "webpack-plugin",
@@ -35,9 +35,9 @@
   "author": "Ffloriel",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/FullHuman/purgecss-webpack-plugin/issues"
+    "url": "https://github.com/dial-once/purgecss-webpack-plugin/issues"
   },
-  "homepage": "https://github.com/FullHuman/purgecss-webpack-plugin#readme",
+  "homepage": "https://github.com/dial-once/purgecss-webpack-plugin#readme",
   "devDependencies": {
     "@babel/core": "^7.0.0",
     "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
